@@ -1,0 +1,19 @@
+{
+    "name": "ronaldcastillo/serverdensity",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ronald Castillo",
+            "homepage": "https://github.com/ronaldcastillo/",
+            "email": "ronaldcastillo@gmail.com"
+        }
+    ],
+    "require": {
+        "serverdensity/sd-api-wrapper": "~0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ronaldcastillo\\": "src/ronaldcastillo"
+        }
+    }
+}
